@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+ 
+  "name": "Better Webcollège (Bêta)",
+  "version": "0.0.2",
+  "description": "Amélioration de webcollège (Bêta)",
+  
+  "icons": {
+    "128": "icon128.jpeg"
+  },
+
+  "content_scripts": [{
+    "css": ["style.css"],
+    "js": ["content.js"],
+    "matches": ["https://*.webcollege.seinesaintdenis.fr/*"]
+  }]
+}
