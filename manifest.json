@@ -1,9 +1,9 @@
 {
   "manifest_version": 3,
  
-  "name": "Better Webcollège (Bêta)",
+  "name": "Better Skolengo (Beta)",
   "version": "0.0.2",
-  "description": "Amélioration de webcollège (Bêta)",
+  "description": "Amélioration des ENT / Webcollèges creés par Skolengo (en beta)",
   
   "icons": {
     "128": "icon128.jpeg"
@@ -12,6 +12,11 @@
   "content_scripts": [{
     "css": ["style.css"],
     "js": ["content.js"],
-    "matches": ["https://*.webcollege.seinesaintdenis.fr/*"]
+    "matches": [
+      "https://*.mon-ent-occitanie.fr/*",
+      "https://example.com/*",
+      "https://another-example.com/*"
+    ]
   }]
+  
 }
